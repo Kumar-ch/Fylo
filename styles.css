@@ -1,0 +1,151 @@
+body {
+    background-color: hsl(217, 28%, 15%);;
+    color:white;
+    font-family: 'Raleway', sans-serif,monospace;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    color: hsl(0, 0%, 80%);
+}
+
+div.topleft-container {
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+
+}
+div.topright-container {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 55px;
+    font-size: 1rem;
+}
+
+.topright-links {
+    color:hsl(0, 0%, 75%);
+    padding: 2em 2em 2em 2em;
+    text-decoration: none;
+
+}
+
+.topright-links:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.logo:hover {
+    height: 56px;
+    width: 180px;
+}
+
+.top-container{
+    position: sticky;
+    top: -20px;
+    background-color:  hsl(217, 28%, 15%);
+    height: 120px;
+}
+
+.illustration {
+    text-align: center;
+    margin: auto;    
+    padding: 70px 0 20px 0;
+    font-stretch: normal;
+    line-height: 1.5;
+}
+img.illustration {
+    height: 50%;
+    width: 45%;
+}
+
+.illu_paragraph {
+    width: 35%;
+    margin: 0 auto 20px auto;
+    font-size: 14px;
+    margin: 0 auto 50px auto;
+    
+}
+
+.butn {
+    background: #65E2D9;
+    -background-image: -webkit-linear-gradient(top, #65E2D9, #2980b9);
+    -background-image: -moz-linear-gradient(top, #65E2D9, #2980b9);
+    -background-image: -ms-linear-gradient(top, #65E2D9, #2980b9);
+    -background-image: -o-linear-gradient(top, #65E2D9, #2980b9);
+    -background-image: linear-gradient(to bottom, #65E2D9, #65E2DC);
+    border-radius: 28px;
+    font-family: 'Raleway', sans-serif,monospace;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    width: 200px;
+  }
+  
+  .butn:hover {
+    background: hsl(198, 60%, 50%);
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #65E2D9);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #65E2D9);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #65E2D9);
+    background-image: -o-linear-gradient(top, #3cb0fd, #65E2D9);
+    background-image: linear-gradient(to bottom, hsl(198, 60%, 50%), hsl(198, 60%, 60%));
+    text-decoration: none;
+  }
+
+  table.main_table {
+      text-align: center;
+      margin: 100px auto;
+  }
+
+  .table_para {
+    width: 50%;
+    margin: 0 auto 20px auto;
+    font-size: 14px;
+ }
+
+
+  .illustration2 {
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    left: 40px;
+    margin: 100px 0;
+
+  }
+
+  img.stay-productive {
+    float: left;
+    height: 420px;
+    width: 550px;
+    margin: 0 10px 0 40px;
+  }
+
+  .illustration2-para {
+    font-size: 14px;
+    width: 140%;
+}
+
+.productive-h1 {
+    width: 150%;
+    margin: 70px auto;
+}
+
+.howfyloworks {
+    color:hsl(176, 68%, 64%);
+}
+
+.inside_table_left {
+    position: relative;
+    left: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inside_table_right {
+    position: relative;
+    right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
